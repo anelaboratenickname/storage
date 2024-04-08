@@ -153,6 +153,7 @@ class Storage {
                     }
                 }
                 productList.removeAll(addedProducts)
+                addedProducts.clear()
             }
         }
         sentTrucksCount++
